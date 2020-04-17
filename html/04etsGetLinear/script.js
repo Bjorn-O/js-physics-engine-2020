@@ -22,7 +22,7 @@ function animate() {
   myPoint1.draw(context);
   myLine.slope = (myPoint1.y - myPoint0.y)/(myPoint1.x - myPoint0.x);
   myLine.intercept = myPoint1.y - myLine.slope*myPoint1.x;
-  myLine.Draw(context);
+  myLine.draw(context);
 }
 
 setInterval(animate, 10);

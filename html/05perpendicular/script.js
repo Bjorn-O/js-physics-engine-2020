@@ -23,7 +23,7 @@ A.draw(context);
 B.draw(context);
 C.draw(context);
 
-m.Draw(context);
+m.draw(context);
 
 m.slope = -1/l.slope;
 m.intercept = C.y - C.x * m.slope;
